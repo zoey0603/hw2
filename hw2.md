@@ -3,7 +3,7 @@
 ### Mermaid
 ```mermaid
 gantt
-    title PERT/CPM Diagram
+    title  gantt chart
 
     section 研擬計畫
     研擬計畫          :a1, 2024-01-01, 1d
