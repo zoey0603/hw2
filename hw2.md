@@ -1,5 +1,6 @@
-# hw2
-
+### hw2
+```hw2
+hw2
     title PERT/CPM Diagram
 
     section 研擬計畫
@@ -18,3 +19,17 @@
     系統測試          :a9, after a6, 25d
     使用者訓練        :a10, after a7, 20d
     使用者測試        :a11, after a9, 25d
+```
+
+### Mermaid
+```mermaid
+gantt
+    title A Gantt Diagram
+
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    anther task      : 24d
+```
