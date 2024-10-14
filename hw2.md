@@ -24,10 +24,10 @@ gantt
 ```
 
 ```graphviz
-digraph{
-    node[shape=record];
-    rankdir="LR";
-
+digraph PERT_CPM {
+	node[shape=record];
+	rankdir="LR";
+    
     no1 [label = "研擬計畫 | 編號:1 | 開始:第1天 | 結束:第1天 | 需時:1天"]
     no2 [label = "任務分配 | 編號:2 | 開始:第2天 | 結束:第5天 | 需時:4天"]
     no3 [label = "取得硬體 | 編號:3 | 開始:第2天 | 結束:第18天 | 需時:17天"]
@@ -39,7 +39,7 @@ digraph{
     no9 [label = "系統測試 | 編號:9 | 開始:第106天 | 結束:第130天 | 需時:25天"]
     no10 [label = "使用者訓練 | 編號:10 | 開始:第54天 | 結束:第73天 | 需時:20天"]
     no11 [label = "使用者測試 | 編號:11 | 開始:第131天 | 結束:第155天 | 需時:25天"]
-    
+
     no1 -> no2
     no1 -> no3
     no2 -> no4
